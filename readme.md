@@ -72,13 +72,13 @@ CropAnomaly-Detection-Platform
 
 ## Home
 
-![Home](assets/screenshots/home.png)
+![Home](assets/result_0.png)
 
 ---
 
 ## Detection Result
 
-![Prediction](assets/screenshots/prediction.png)
+![Prediction](assets/result_1.png)
 
 ---
 
