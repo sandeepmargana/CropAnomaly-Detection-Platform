@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CropAnomaly Detection Platform</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="header">
+
+        <h1>🌱 CropAnomaly Detection Platform</h1>
+
+        <p>
+            AI Powered Crop Pest & Disease Detection using YOLOv8
+        </p>
+
+    </div>
+
+    <div class="upload-card">
+
+        <input
+            type="file"
+            id="imageInput"
+            accept="image/*"
+            capture="environment"
+        >
+
+        <button
+            id="uploadBtn"
+            onclick="uploadImage()"
+        >
+            Analyze Crop
+        </button>
+
+    </div>
+
+    <div
+        id="loading"
+        class="loading"
+        style="display:none;"
+    >
+
+        <div class="spinner"></div>
+
+        <h3>Analyzing image...</h3>
+
+        <p>Please wait</p>
+
+    </div>
+
+    <div class="image-section">
+
+        <div class="image-card">
+
+            <h2>Uploaded Image</h2>
+
+            <img
+                id="originalImage"
+                src=""
+            >
+
+        </div>
+
+        <div class="image-card">
+
+            <h2>Detection Result</h2>
+
+            <img
+                id="resultImage"
+                src=""
+            >
+
+        </div>
+
+    </div>
+
+    <div
+        id="summary"
+        class="summary"
+    >
+
+    </div>
+
+    <div
+        id="results"
+        class="results"
+    >
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
