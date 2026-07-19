@@ -216,7 +216,7 @@ Response
 
 **L S V Sandeep M**
 
-Backend Engineer | AI Engineer | Data Scientist
+Backend AI Engineer 
 
 LinkedIn:
 https://linkedin.com/in/lsv-sandeep-margana
